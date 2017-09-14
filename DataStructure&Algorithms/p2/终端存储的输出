@@ -1,0 +1,425 @@
+Last login: Sun Nov  8 18:40:23 on ttys000
+ZHOUS-MBA:~ bbem$ cd desktop/281project/p2副本
+ZHOUS-MBA:p2副本 bbem$ g++ -o test p2.cpp
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (4, 7) to (6, 8) is -208496419.
+Path:
+Running time: 108
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (4, 7) to (6, 8) is -208496419.
+Path:
+Running time: 120
+ZHOUS-MBA:p2副本 bbem$ g++ -o test p2.cpp
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (2, 8) to (2, 7) is -4529.
+Path:
+Running time: 119
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (2, 8) to (2, 7) is -4529.
+Path:
+Running time: 109
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (9, 3) to (5, 9) is -24546.
+Path:
+Running time: 147
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (9, 3) to (5, 9) is -24546.
+Path:
+Running time: 102
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (0, 7) to (9, 2) is -38875.
+Path:
+Running time: 133
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (0, 7) to (9, 2) is -38875.
+Path:
+Running time: 129
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (6, 9) to (3, 0) is -35127.
+Path:
+Running time: 140
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (6, 9) to (3, 0) is -35127.
+Path:
+Running time: 126
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (1, 4) to (9, 7) is -41907.
+Path:
+Running time: 230
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (1, 4) to (9, 7) is -41907.
+Path:
+Running time: 172
+ZHOUS-MBA:p2副本 bbem$ ./test 10 10
+Please enter the size of the grid: 10 10
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (8, 6) to (6, 7) is -16098.
+Path:
+Running time: 113
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (8, 6) to (6, 7) is -16098.
+Path:
+Running time: 109
+ZHOUS-MBA:p2副本 bbem$ ./test 10 10
+Please enter the size of the grid: 100 100
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (3, 2) to (69, 29) is -6894545.
+Path:
+Running time: 6882
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (3, 2) to (69, 29) is -6894545.
+Path:
+Running time: 78839
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 30 30
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (13, 4) to (28, 25) is -606720.
+Path:
+Running time: 653
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (13, 4) to (28, 25) is -606720.
+Path:
+Running time: 1415
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 30 30
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (23, 23) to (24, 16) is -748973.
+Path:
+Running time: 743
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (23, 23) to (24, 16) is -748973.
+Path:
+Running time: 1763
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 30 30   
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (23, 24) to (26, 5) is -871308.
+Path:
+Running time: 821
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (23, 24) to (26, 5) is -871308.
+Path:
+Running time: 2162
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 30 30
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (9, 26) to (0, 13) is -963822.
+Path:
+Running time: 953
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (9, 26) to (0, 13) is -963822.
+Path:
+Running time: 3386
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 30 30
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (29, 18) to (12, 27) is -769053.
+Path:
+Running time: 830
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (29, 18) to (12, 27) is -769053.
+Path:
+Running time: 2139
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 17 17
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (1, 8) to (13, 1) is -125297.
+Path:
+Running time: 269
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (1, 8) to (13, 1) is -125297.
+Path:
+Running time: 268
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 17 17
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (13, 9) to (4, 0) is -177820.
+Path:
+Running time: 312
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (13, 9) to (4, 0) is -177820.
+Path:
+Running time: 377
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 17 17
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (16, 6) to (12, 12) is -35544.
+Path:
+Running time: 240
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (16, 6) to (12, 12) is -35544.
+Path:
+Running time: 203
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 17 17
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (1, 16) to (11, 4) is -231786.
+Path:
+Running time: 363
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (1, 16) to (11, 4) is -231786.
+Path:
+Running time: 520
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 17 17
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (0, 12) to (11, 9) is -197834.
+Path:
+Running time: 399
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (0, 12) to (11, 9) is -197834.
+Path:
+Running time: 470
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (12, 6) to (0, 6) is -136920.
+Path:
+Running time: 358
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (12, 6) to (0, 6) is -136920.
+Path:
+Running time: 366
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (18, 21) to (17, 12) is -318296.
+Path:
+Running time: 642
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (18, 21) to (17, 12) is -318296.
+Path:
+Running time: 1405
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (16, 21) to (7, 18) is -378281.
+Path:
+Running time: 532
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (16, 21) to (7, 18) is -378281.
+Path:
+Running time: 869
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (5, 8) to (13, 19) is -105835.
+Path:
+Running time: 397
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (5, 8) to (13, 19) is -105835.
+Path:
+Running time: 394
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (15, 18) to (14, 10) is -352255.
+Path:
+Running time: 656
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (15, 18) to (14, 10) is -352255.
+Path:
+Running time: 1555
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (3, 7) to (9, 12) is -139129.
+Path:
+Running time: 408
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (3, 7) to (9, 12) is -139129.
+Path:
+Running time: 417
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 22 22
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (21, 8) to (15, 7) is -404031.
+Path:
+Running time: 500
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (21, 8) to (15, 7) is -404031.
+Path:
+Running time: 706
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 26 26
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (14, 23) to (1, 10) is -237259.
+Path:
+Running time: 593
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (14, 23) to (1, 10) is -237259.
+Path:
+Running time: 971
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 26 26
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (4, 5) to (17, 15) is -587232.
+Path:
+Running time: 758
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (4, 5) to (17, 15) is -587232.
+Path:
+Running time: 2146
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 26 26
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (6, 7) to (25, 24) is -546369.
+Path:
+Running time: 845
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (6, 7) to (25, 24) is -546369.
+Path:
+Running time: 1415
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 26 26
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (7, 16) to (14, 2) is -392760.
+Path:
+Running time: 587
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (7, 16) to (14, 2) is -392760.
+Path:
+Running time: 873
+ZHOUS-MBA:p2副本 bbem$ ./test
+Please enter the size of the grid: 26 26
+Generating start point and end point....
+Generating the grid...
+Running program with BINARY heap...
+The result is:
+The shortest path from (15, 7) to (9, 3) is -536128.
+Path:
+Running time: 774
+Running program with UNSORTED heap...
+The result is:
+The shortest path from (15, 7) to (9, 3) is -536128.
+Path:
+Running time: 1807
+ZHOUS-MBA:p2副本 bbem$ 

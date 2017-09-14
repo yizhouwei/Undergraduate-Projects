@@ -1,0 +1,300 @@
+Midpoint of E_C at time 0 is undefined
+Midpoint of E_C at time 2 is undefined
+Midpoint of E_D at time 2 is undefined
+Midpoint of E_E at time 2 is undefined
+Midpoint of E_F at time 2 is undefined
+Midpoint of E_C at time 3 is undefined
+Midpoint of E_D at time 3 is $15
+Midpoint of E_E at time 3 is undefined
+Midpoint of E_F at time 3 is undefined
+C_c purchased 8 shares of E_C from C_c for $25/share
+Median match price of E_C at time 4 is $25
+Midpoint of E_C at time 4 is undefined
+Midpoint of E_D at time 4 is $15
+Midpoint of E_E at time 4 is undefined
+Midpoint of E_F at time 4 is undefined
+Median match price of E_C at time 5 is $25
+Midpoint of E_C at time 5 is undefined
+Midpoint of E_D at time 5 is $15
+Midpoint of E_E at time 5 is undefined
+Midpoint of E_F at time 5 is undefined
+Median match price of E_C at time 6 is $25
+Midpoint of E_B at time 6 is undefined
+Midpoint of E_C at time 6 is undefined
+Midpoint of E_D at time 6 is $15
+Midpoint of E_E at time 6 is undefined
+Midpoint of E_F at time 6 is undefined
+C_d purchased 12 shares of E_F from C_c for $35/share
+Median match price of E_C at time 7 is $25
+Median match price of E_F at time 7 is $35
+Midpoint of E_B at time 7 is undefined
+Midpoint of E_C at time 7 is undefined
+Midpoint of E_D at time 7 is $15
+Midpoint of E_E at time 7 is undefined
+Midpoint of E_F at time 7 is undefined
+C_e purchased 1 shares of E_E from C_d for $40/share
+Median match price of E_C at time 8 is $25
+Median match price of E_E at time 8 is $40
+Median match price of E_F at time 8 is $35
+Midpoint of E_B at time 8 is undefined
+Midpoint of E_C at time 8 is undefined
+Midpoint of E_D at time 8 is undefined
+Midpoint of E_E at time 8 is undefined
+Midpoint of E_F at time 8 is undefined
+Median match price of E_C at time 11 is $25
+Median match price of E_E at time 11 is $40
+Median match price of E_F at time 11 is $35
+Midpoint of E_A at time 11 is undefined
+Midpoint of E_B at time 11 is undefined
+Midpoint of E_C at time 11 is undefined
+Midpoint of E_D at time 11 is undefined
+Midpoint of E_E at time 11 is undefined
+Midpoint of E_F at time 11 is undefined
+Median match price of E_C at time 14 is $25
+Median match price of E_E at time 14 is $40
+Median match price of E_F at time 14 is $35
+Midpoint of E_A at time 14 is undefined
+Midpoint of E_B at time 14 is undefined
+Midpoint of E_C at time 14 is undefined
+Midpoint of E_D at time 14 is $30
+Midpoint of E_E at time 14 is undefined
+Midpoint of E_F at time 14 is undefined
+Median match price of E_C at time 15 is $25
+Median match price of E_E at time 15 is $40
+Median match price of E_F at time 15 is $35
+Midpoint of E_A at time 15 is undefined
+Midpoint of E_B at time 15 is undefined
+Midpoint of E_C at time 15 is undefined
+Midpoint of E_D at time 15 is $30
+Midpoint of E_E at time 15 is undefined
+Midpoint of E_F at time 15 is undefined
+Median match price of E_C at time 17 is $25
+Median match price of E_E at time 17 is $40
+Median match price of E_F at time 17 is $35
+Midpoint of E_A at time 17 is undefined
+Midpoint of E_B at time 17 is undefined
+Midpoint of E_C at time 17 is undefined
+Midpoint of E_D at time 17 is $25
+Midpoint of E_E at time 17 is $45
+Midpoint of E_F at time 17 is undefined
+C_c purchased 6 shares of E_C from C_c for $20/share
+C_e purchased 9 shares of E_A from C_a for $45/share
+Median match price of E_A at time 20 is $45
+Median match price of E_C at time 20 is $22
+Median match price of E_E at time 20 is $40
+Median match price of E_F at time 20 is $35
+Midpoint of E_A at time 20 is undefined
+Midpoint of E_B at time 20 is undefined
+Midpoint of E_C at time 20 is undefined
+Midpoint of E_D at time 20 is $25
+Midpoint of E_E at time 20 is $45
+Midpoint of E_F at time 20 is undefined
+Median match price of E_A at time 21 is $45
+Median match price of E_C at time 21 is $22
+Median match price of E_E at time 21 is $40
+Median match price of E_F at time 21 is $35
+Midpoint of E_A at time 21 is undefined
+Midpoint of E_B at time 21 is undefined
+Midpoint of E_C at time 21 is undefined
+Midpoint of E_D at time 21 is $25
+Midpoint of E_E at time 21 is $45
+Midpoint of E_F at time 21 is undefined
+C_e purchased 7 shares of E_A from C_d for $45/share
+Median match price of E_A at time 26 is $45
+Median match price of E_C at time 26 is $22
+Median match price of E_E at time 26 is $40
+Median match price of E_F at time 26 is $35
+Midpoint of E_A at time 26 is undefined
+Midpoint of E_B at time 26 is undefined
+Midpoint of E_C at time 26 is undefined
+Midpoint of E_D at time 26 is $25
+Midpoint of E_E at time 26 is undefined
+Midpoint of E_F at time 26 is undefined
+Median match price of E_A at time 27 is $45
+Median match price of E_C at time 27 is $22
+Median match price of E_E at time 27 is $40
+Median match price of E_F at time 27 is $35
+Midpoint of E_A at time 27 is undefined
+Midpoint of E_B at time 27 is undefined
+Midpoint of E_C at time 27 is undefined
+Midpoint of E_D at time 27 is $15
+Midpoint of E_E at time 27 is undefined
+Midpoint of E_F at time 27 is undefined
+Median match price of E_A at time 30 is $45
+Median match price of E_C at time 30 is $22
+Median match price of E_E at time 30 is $40
+Median match price of E_F at time 30 is $35
+Midpoint of E_A at time 30 is undefined
+Midpoint of E_B at time 30 is undefined
+Midpoint of E_C at time 30 is undefined
+Midpoint of E_D at time 30 is $15
+Midpoint of E_E at time 30 is undefined
+Midpoint of E_F at time 30 is undefined
+Median match price of E_A at time 32 is $45
+Median match price of E_C at time 32 is $22
+Median match price of E_E at time 32 is $40
+Median match price of E_F at time 32 is $35
+Midpoint of E_A at time 32 is undefined
+Midpoint of E_B at time 32 is undefined
+Midpoint of E_C at time 32 is $40
+Midpoint of E_D at time 32 is $15
+Midpoint of E_E at time 32 is $30
+Midpoint of E_F at time 32 is undefined
+Median match price of E_A at time 33 is $45
+Median match price of E_C at time 33 is $22
+Median match price of E_E at time 33 is $40
+Median match price of E_F at time 33 is $35
+Midpoint of E_A at time 33 is undefined
+Midpoint of E_B at time 33 is undefined
+Midpoint of E_C at time 33 is $40
+Midpoint of E_D at time 33 is $15
+Midpoint of E_E at time 33 is $30
+Midpoint of E_F at time 33 is undefined
+C_c purchased 3 shares of E_E from C_b for $25/share
+Median match price of E_A at time 36 is $45
+Median match price of E_C at time 36 is $22
+Median match price of E_E at time 36 is $32
+Median match price of E_F at time 36 is $35
+Midpoint of E_A at time 36 is undefined
+Midpoint of E_B at time 36 is undefined
+Midpoint of E_C at time 36 is $40
+Midpoint of E_D at time 36 is $15
+Midpoint of E_E at time 36 is $30
+Midpoint of E_F at time 36 is undefined
+C_e purchased 10 shares of E_F from C_c for $30/share
+C_e purchased 12 shares of E_F from C_a for $40/share
+Median match price of E_A at time 37 is $45
+Median match price of E_C at time 37 is $22
+Median match price of E_E at time 37 is $32
+Median match price of E_F at time 37 is $35
+Midpoint of E_A at time 37 is undefined
+Midpoint of E_B at time 37 is undefined
+Midpoint of E_C at time 37 is $40
+Midpoint of E_D at time 37 is $15
+Midpoint of E_E at time 37 is $30
+Midpoint of E_F at time 37 is undefined
+Median match price of E_A at time 38 is $45
+Median match price of E_C at time 38 is $22
+Median match price of E_E at time 38 is $32
+Median match price of E_F at time 38 is $35
+Midpoint of E_A at time 38 is undefined
+Midpoint of E_B at time 38 is undefined
+Midpoint of E_C at time 38 is $40
+Midpoint of E_D at time 38 is $15
+Midpoint of E_E at time 38 is $30
+Midpoint of E_F at time 38 is undefined
+Median match price of E_A at time 40 is $45
+Median match price of E_C at time 40 is $22
+Median match price of E_E at time 40 is $32
+Median match price of E_F at time 40 is $35
+Midpoint of E_A at time 40 is undefined
+Midpoint of E_B at time 40 is undefined
+Midpoint of E_C at time 40 is $27
+Midpoint of E_D at time 40 is $15
+Midpoint of E_E at time 40 is $30
+Midpoint of E_F at time 40 is undefined
+Midpoint of E_N at time 40 is undefined
+C_e purchased 2 shares of E_D from C_a for $20/share
+C_e purchased 19 shares of E_D from C_a for $20/share
+Median match price of E_A at time 41 is $45
+Median match price of E_C at time 41 is $22
+Median match price of E_D at time 41 is $20
+Median match price of E_E at time 41 is $32
+Median match price of E_F at time 41 is $35
+Midpoint of E_A at time 41 is undefined
+Midpoint of E_B at time 41 is $50
+Midpoint of E_C at time 41 is $27
+Midpoint of E_D at time 41 is $15
+Midpoint of E_E at time 41 is $30
+Midpoint of E_F at time 41 is undefined
+Midpoint of E_N at time 41 is undefined
+Median match price of E_A at time 44 is $45
+Median match price of E_C at time 44 is $22
+Median match price of E_D at time 44 is $20
+Median match price of E_E at time 44 is $32
+Median match price of E_F at time 44 is $35
+Midpoint of E_A at time 44 is undefined
+Midpoint of E_B at time 44 is undefined
+Midpoint of E_C at time 44 is undefined
+Midpoint of E_D at time 44 is undefined
+Midpoint of E_E at time 44 is $30
+Midpoint of E_F at time 44 is undefined
+Midpoint of E_G at time 44 is undefined
+Midpoint of E_N at time 44 is undefined
+Median match price of E_A at time 45 is $45
+Median match price of E_C at time 45 is $22
+Median match price of E_D at time 45 is $20
+Median match price of E_E at time 45 is $32
+Median match price of E_F at time 45 is $35
+Midpoint of E_A at time 45 is undefined
+Midpoint of E_B at time 45 is undefined
+Midpoint of E_C at time 45 is undefined
+Midpoint of E_D at time 45 is undefined
+Midpoint of E_E at time 45 is $30
+Midpoint of E_F at time 45 is undefined
+Midpoint of E_G at time 45 is undefined
+Midpoint of E_N at time 45 is undefined
+Median match price of E_A at time 47 is $45
+Median match price of E_C at time 47 is $22
+Median match price of E_D at time 47 is $20
+Median match price of E_E at time 47 is $32
+Median match price of E_F at time 47 is $35
+Midpoint of E_A at time 47 is undefined
+Midpoint of E_B at time 47 is undefined
+Midpoint of E_C at time 47 is undefined
+Midpoint of E_D at time 47 is undefined
+Midpoint of E_E at time 47 is $30
+Midpoint of E_F at time 47 is undefined
+Midpoint of E_G at time 47 is undefined
+Midpoint of E_N at time 47 is undefined
+C_d purchased 9 shares of E_C from C_a for $35/share
+Median match price of E_A at time 48 is $45
+Median match price of E_C at time 48 is $25
+Median match price of E_D at time 48 is $20
+Median match price of E_E at time 48 is $32
+Median match price of E_F at time 48 is $35
+Midpoint of E_A at time 48 is undefined
+Midpoint of E_B at time 48 is undefined
+Midpoint of E_C at time 48 is $37
+Midpoint of E_D at time 48 is undefined
+Midpoint of E_E at time 48 is $30
+Midpoint of E_F at time 48 is undefined
+Midpoint of E_G at time 48 is undefined
+Midpoint of E_N at time 48 is undefined
+Median match price of E_A at time 49 is $45
+Median match price of E_C at time 49 is $25
+Median match price of E_D at time 49 is $20
+Median match price of E_E at time 49 is $32
+Median match price of E_F at time 49 is $35
+Midpoint of E_A at time 49 is undefined
+Midpoint of E_B at time 49 is undefined
+Midpoint of E_C at time 49 is $37
+Midpoint of E_D at time 49 is $15
+Midpoint of E_E at time 49 is $30
+Midpoint of E_F at time 49 is undefined
+Midpoint of E_G at time 49 is undefined
+Midpoint of E_N at time 49 is undefined
+Median match price of E_A at time 50 is $45
+Median match price of E_C at time 50 is $25
+Median match price of E_D at time 50 is $20
+Median match price of E_E at time 50 is $32
+Median match price of E_F at time 50 is $35
+Midpoint of E_A at time 50 is undefined
+Midpoint of E_B at time 50 is undefined
+Midpoint of E_C at time 50 is $45
+Midpoint of E_D at time 50 is $15
+Midpoint of E_E at time 50 is $30
+Midpoint of E_F at time 50 is undefined
+Midpoint of E_G at time 50 is $22
+Midpoint of E_N at time 50 is undefined
+---End of Day---
+Commission Earnings: $54
+Total Amount of Money Transferred: $3090
+Number of Completed Trades: 12
+Number of Shares Traded: 98
+C_a bought 0 and sold 51 for a net transfer of $1620
+C_b bought 0 and sold 3 for a net transfer of $75
+C_c bought 9 and sold 36 for a net transfer of $845
+C_c bought 17 and sold 28 for a net transfer of $445
+C_d bought 21 and sold 8 for a net transfer of $-380
+C_e bought 60 and sold 0 for a net transfer of $-1960

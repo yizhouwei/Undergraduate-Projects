@@ -1,0 +1,267 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+\\psf\Home\Documents\ISE\bin\nt\unwrapped\trce.exe -ise
+Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise -intstyle ise -e 3 -s 4 -xml
+digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+
+Design file:              digitalclk.ncd
+Physical constraint file: digitalclk.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock pipeclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+cathodes<0> |   21.030(R)|pipeclk_BUFGP     |   0.000|
+            |   24.477(F)|pipeclk_BUFGP     |   0.000|
+cathodes<1> |   20.858(R)|pipeclk_BUFGP     |   0.000|
+            |   22.800(F)|pipeclk_BUFGP     |   0.000|
+cathodes<2> |   22.002(R)|pipeclk_BUFGP     |   0.000|
+            |   23.869(F)|pipeclk_BUFGP     |   0.000|
+cathodes<3> |   22.392(R)|pipeclk_BUFGP     |   0.000|
+            |   24.323(F)|pipeclk_BUFGP     |   0.000|
+cathodes<4> |   25.100(R)|pipeclk_BUFGP     |   0.000|
+            |   26.685(F)|pipeclk_BUFGP     |   0.000|
+cathodes<5> |   24.210(R)|pipeclk_BUFGP     |   0.000|
+            |   25.795(F)|pipeclk_BUFGP     |   0.000|
+cathodes<6> |   21.073(R)|pipeclk_BUFGP     |   0.000|
+            |   22.651(F)|pipeclk_BUFGP     |   0.000|
+w3<0>       |   14.661(R)|pipeclk_BUFGP     |   0.000|
+            |   17.450(F)|pipeclk_BUFGP     |   0.000|
+w3<1>       |   13.817(R)|pipeclk_BUFGP     |   0.000|
+            |   18.027(F)|pipeclk_BUFGP     |   0.000|
+w3<2>       |   15.463(R)|pipeclk_BUFGP     |   0.000|
+            |   17.048(F)|pipeclk_BUFGP     |   0.000|
+w3<3>       |   15.032(R)|pipeclk_BUFGP     |   0.000|
+            |   16.347(F)|pipeclk_BUFGP     |   0.000|
+w4<0>       |   15.505(R)|pipeclk_BUFGP     |   0.000|
+            |   16.740(F)|pipeclk_BUFGP     |   0.000|
+w4<1>       |   14.930(R)|pipeclk_BUFGP     |   0.000|
+            |   17.083(F)|pipeclk_BUFGP     |   0.000|
+w4<2>       |   15.402(R)|pipeclk_BUFGP     |   0.000|
+            |   16.936(F)|pipeclk_BUFGP     |   0.000|
+w4<3>       |   16.049(R)|pipeclk_BUFGP     |   0.000|
+            |   16.446(F)|pipeclk_BUFGP     |   0.000|
+w7<0>       |   16.798(R)|pipeclk_BUFGP     |   0.000|
+            |   19.325(F)|pipeclk_BUFGP     |   0.000|
+w7<1>       |   14.537(R)|pipeclk_BUFGP     |   0.000|
+            |   16.950(F)|pipeclk_BUFGP     |   0.000|
+w7<2>       |   13.938(R)|pipeclk_BUFGP     |   0.000|
+            |   17.354(F)|pipeclk_BUFGP     |   0.000|
+w7<3>       |   13.861(R)|pipeclk_BUFGP     |   0.000|
+            |   17.203(F)|pipeclk_BUFGP     |   0.000|
+w8<0>       |   14.829(R)|pipeclk_BUFGP     |   0.000|
+            |   17.649(F)|pipeclk_BUFGP     |   0.000|
+w8<1>       |   14.345(R)|pipeclk_BUFGP     |   0.000|
+            |   15.882(F)|pipeclk_BUFGP     |   0.000|
+w8<2>       |   15.392(R)|pipeclk_BUFGP     |   0.000|
+            |   18.954(F)|pipeclk_BUFGP     |   0.000|
+w8<3>       |   14.665(R)|pipeclk_BUFGP     |   0.000|
+            |   17.959(F)|pipeclk_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.052|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock pipeclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pipeclk        |   11.509|    5.489|    8.234|    6.527|
+reset          |    2.436|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+pipeclk        |    6.711|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+pcsel          |cathodes<0>    |   16.330|
+pcsel          |cathodes<1>    |   15.466|
+pcsel          |cathodes<2>    |   15.878|
+pcsel          |cathodes<3>    |   16.917|
+pcsel          |cathodes<4>    |   18.457|
+pcsel          |cathodes<5>    |   17.567|
+pcsel          |cathodes<6>    |   15.147|
+pcsel          |w3<0>          |    9.930|
+pcsel          |w3<1>          |    8.777|
+pcsel          |w3<2>          |    8.820|
+pcsel          |w3<3>          |    8.763|
+pcsel          |w4<0>          |    8.816|
+pcsel          |w4<1>          |    8.210|
+pcsel          |w4<2>          |    8.570|
+pcsel          |w4<3>          |    8.709|
+pcsel          |w7<0>          |    9.115|
+pcsel          |w7<1>          |    8.214|
+pcsel          |w7<2>          |    9.457|
+pcsel          |w7<3>          |    9.699|
+pcsel          |w8<0>          |   11.052|
+pcsel          |w8<1>          |   10.544|
+pcsel          |w8<2>          |   11.062|
+pcsel          |w8<3>          |   10.625|
+regsel<0>      |cathodes<0>    |   24.265|
+regsel<0>      |cathodes<1>    |   23.509|
+regsel<0>      |cathodes<2>    |   25.208|
+regsel<0>      |cathodes<3>    |   25.627|
+regsel<0>      |cathodes<4>    |   27.618|
+regsel<0>      |cathodes<5>    |   26.733|
+regsel<0>      |cathodes<6>    |   23.854|
+regsel<0>      |w3<0>          |   17.354|
+regsel<0>      |w3<1>          |   17.665|
+regsel<0>      |w3<2>          |   17.799|
+regsel<0>      |w3<3>          |   18.267|
+regsel<0>      |w4<0>          |   18.286|
+regsel<0>      |w4<1>          |   17.137|
+regsel<0>      |w4<2>          |   17.128|
+regsel<0>      |w4<3>          |   16.102|
+regsel<0>      |w7<0>          |   18.152|
+regsel<0>      |w7<1>          |   17.177|
+regsel<0>      |w7<2>          |   16.438|
+regsel<0>      |w7<3>          |   16.777|
+regsel<0>      |w8<0>          |   16.985|
+regsel<0>      |w8<1>          |   16.942|
+regsel<0>      |w8<2>          |   19.104|
+regsel<0>      |w8<3>          |   16.970|
+regsel<1>      |cathodes<0>    |   24.537|
+regsel<1>      |cathodes<1>    |   23.781|
+regsel<1>      |cathodes<2>    |   25.480|
+regsel<1>      |cathodes<3>    |   25.899|
+regsel<1>      |cathodes<4>    |   27.890|
+regsel<1>      |cathodes<5>    |   27.005|
+regsel<1>      |cathodes<6>    |   24.126|
+regsel<1>      |w3<0>          |   17.626|
+regsel<1>      |w3<1>          |   17.937|
+regsel<1>      |w3<2>          |   18.041|
+regsel<1>      |w3<3>          |   18.539|
+regsel<1>      |w4<0>          |   18.558|
+regsel<1>      |w4<1>          |   17.316|
+regsel<1>      |w4<2>          |   17.400|
+regsel<1>      |w4<3>          |   16.374|
+regsel<1>      |w7<0>          |   18.424|
+regsel<1>      |w7<1>          |   17.449|
+regsel<1>      |w7<2>          |   16.663|
+regsel<1>      |w7<3>          |   17.049|
+regsel<1>      |w8<0>          |   17.050|
+regsel<1>      |w8<1>          |   17.007|
+regsel<1>      |w8<2>          |   19.169|
+regsel<1>      |w8<3>          |   17.035|
+regsel<2>      |cathodes<0>    |   23.106|
+regsel<2>      |cathodes<1>    |   22.350|
+regsel<2>      |cathodes<2>    |   24.049|
+regsel<2>      |cathodes<3>    |   24.468|
+regsel<2>      |cathodes<4>    |   26.459|
+regsel<2>      |cathodes<5>    |   25.574|
+regsel<2>      |cathodes<6>    |   22.695|
+regsel<2>      |w3<0>          |   16.195|
+regsel<2>      |w3<1>          |   16.506|
+regsel<2>      |w3<2>          |   16.610|
+regsel<2>      |w3<3>          |   17.108|
+regsel<2>      |w4<0>          |   17.127|
+regsel<2>      |w4<1>          |   16.337|
+regsel<2>      |w4<2>          |   15.969|
+regsel<2>      |w4<3>          |   14.943|
+regsel<2>      |w7<0>          |   16.993|
+regsel<2>      |w7<1>          |   16.018|
+regsel<2>      |w7<2>          |   15.394|
+regsel<2>      |w7<3>          |   15.618|
+regsel<2>      |w8<0>          |   15.676|
+regsel<2>      |w8<1>          |   14.755|
+regsel<2>      |w8<2>          |   17.236|
+regsel<2>      |w8<3>          |   15.459|
+regsel<3>      |cathodes<0>    |   23.207|
+regsel<3>      |cathodes<1>    |   22.451|
+regsel<3>      |cathodes<2>    |   24.150|
+regsel<3>      |cathodes<3>    |   24.569|
+regsel<3>      |cathodes<4>    |   26.630|
+regsel<3>      |cathodes<5>    |   25.740|
+regsel<3>      |cathodes<6>    |   22.796|
+regsel<3>      |w3<0>          |   16.296|
+regsel<3>      |w3<1>          |   16.607|
+regsel<3>      |w3<2>          |   16.993|
+regsel<3>      |w3<3>          |   17.209|
+regsel<3>      |w4<0>          |   17.228|
+regsel<3>      |w4<1>          |   16.200|
+regsel<3>      |w4<2>          |   16.584|
+regsel<3>      |w4<3>          |   15.044|
+regsel<3>      |w7<0>          |   17.094|
+regsel<3>      |w7<1>          |   16.119|
+regsel<3>      |w7<2>          |   15.333|
+regsel<3>      |w7<3>          |   15.719|
+regsel<3>      |w8<0>          |   15.770|
+regsel<3>      |w8<1>          |   14.897|
+regsel<3>      |w8<2>          |   17.551|
+regsel<3>      |w8<3>          |   15.741|
+regsel<4>      |cathodes<0>    |   23.354|
+regsel<4>      |cathodes<1>    |   22.598|
+regsel<4>      |cathodes<2>    |   24.297|
+regsel<4>      |cathodes<3>    |   24.716|
+regsel<4>      |cathodes<4>    |   27.263|
+regsel<4>      |cathodes<5>    |   26.373|
+regsel<4>      |cathodes<6>    |   22.943|
+regsel<4>      |w3<0>          |   16.443|
+regsel<4>      |w3<1>          |   16.754|
+regsel<4>      |w3<2>          |   17.626|
+regsel<4>      |w3<3>          |   17.356|
+regsel<4>      |w4<0>          |   17.375|
+regsel<4>      |w4<1>          |   16.322|
+regsel<4>      |w4<2>          |   17.217|
+regsel<4>      |w4<3>          |   15.191|
+regsel<4>      |w7<0>          |   17.241|
+regsel<4>      |w7<1>          |   16.266|
+regsel<4>      |w7<2>          |   15.491|
+regsel<4>      |w7<3>          |   15.866|
+regsel<4>      |w8<0>          |   16.038|
+regsel<4>      |w8<1>          |   15.995|
+regsel<4>      |w8<2>          |   18.157|
+regsel<4>      |w8<3>          |   16.374|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 25 01:13:57 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 137 MB
+
+
+

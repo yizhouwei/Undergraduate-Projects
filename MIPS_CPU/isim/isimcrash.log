@@ -1,0 +1,16 @@
+Exception at PC 0x7C812AEB
+Unknown signal -529697949 received
+Printing stacktrace...
+
+Done
+Exception at PC 0x00512171
+Signal EXCEPTION_ACCESS_VIOLATION received
+Attemped to read address 0x00000004
+Printing stacktrace...
+
+Done
+Exception at PC 0x7C812AEB
+Unknown signal -529697949 received
+Printing stacktrace...
+
+Done

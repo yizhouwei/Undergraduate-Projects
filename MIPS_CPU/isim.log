@@ -1,0 +1,90 @@
+Command line:
+   ./testpipeline_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1049
+WARNING:Simulator:16 - For instance uut/shiftjump/, width 32 of formal port in
+   is not equal to width 26 of actual.
+WARNING:Simulator:678 -  For instance uut/shiftjump/, width 32 of formal port
+   out is not equal to width 28 of actual signal IDtmpjumpaddr.
+WARNING:Simulator:678 -  For instance uut/regwriteaddr/, width 32 of formal port
+   in0 is not equal to width 5 of actual signal EXregRt.
+WARNING:Simulator:678 -  For instance uut/regwriteaddr/, width 32 of formal port
+   in1 is not equal to width 5 of actual signal EXregRd.
+WARNING:Simulator:678 -  For instance uut/EXMEM/, width 5 of formal port
+   EXMEMregRd_in is not equal to width 32 of actual signal EXregwraddr.
+
+Wed Nov 25 01:28:38 2015
+
+Total Line Count : 410
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 145.269 Meg
+
+ Total Signals          : 364
+ Total Nets             : 2118
+ Total Signal Drivers   : 104
+ Total Blocks           : 31
+ Total Primitive Blocks : 29
+ Total Processes        : 155
+ Total Traceable Variables  : 107
+ Total Scalar Nets and Variables : 9728
+ntrace select -o on -n /testpipeline/EXbranchaddr 
+ntrace select -o on -n /testpipeline/pre_lw_and_curr_sw 
+ntrace select -o on -n /testpipeline/WBregwraddr 
+ntrace select -o on -n /testpipeline/MEMregwraddr 
+ntrace select -o on -n /testpipeline/MEMMemWrite 
+ntrace select -o on -n /testpipeline/WBMemtoReg 
+ntrace select -o on -n /testpipeline/forwardAsel 
+ntrace select -o on -n /testpipeline/forwardBsel 
+ntrace select -o on -n /testpipeline/t0 
+ntrace select -o on -n /testpipeline/t1 
+ntrace select -o on -n /testpipeline/t2 
+ntrace select -o on -n /testpipeline/t3 
+ntrace select -o on -n /testpipeline/t4 
+ntrace select -o on -n /testpipeline/t5 
+ntrace select -o on -n /testpipeline/t6 
+ntrace select -o on -n /testpipeline/t7 
+ntrace select -o on -n /testpipeline/t8 
+ntrace select -o on -n /testpipeline/t9 
+ntrace select -o on -n /testpipeline/s0 
+ntrace select -o on -n /testpipeline/s1 
+ntrace select -o on -n /testpipeline/s2 
+ntrace select -o on -n /testpipeline/s3 
+ntrace select -o on -n /testpipeline/s4 
+ntrace select -o on -n /testpipeline/s5 
+ntrace select -o on -n /testpipeline/s6 
+ntrace select -o on -n /testpipeline/s7 
+ntrace select -o on -n /testpipeline/pcwrite 
+ntrace select -o on -n /testpipeline/IFIDWrite 
+ntrace select -o on -n /testpipeline/EXALUSrc 
+ntrace select -o on -n /testpipeline/pctoImem 
+ntrace select -o on -n /testpipeline/Imemout 
+ntrace select -o on -n /testpipeline/EXALUresult 
+ntrace select -o on -n /testpipeline/MEMALUresult 
+ntrace select -o on -n /testpipeline/ALUin1 
+ntrace select -o on -n /testpipeline/ALUin2 
+ntrace select -o on -n /testpipeline/tmpALUin2 
+ntrace select -o on -n /testpipeline/EXpcadd4 
+ntrace select -o on -n /testpipeline/shiftins15_0 
+ntrace select -o on -n /testpipeline/WBRegWrite 
+ntrace select -o on -n /testpipeline/WBregwrdata 
+ntrace select -o on -n /testpipeline/half 
+ntrace select -o on -n /testpipeline/clk 
+ntrace select -o on -n /testpipeline/reset 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 10000 ns 
+ERROR: Signal Unknown signal received
+
+
+INFO:Simulator:30 - Simulator is stopped.
+ERROR: Signal EXCEPTION_ACCESS_VIOLATION received
+
+
+ERROR: Signal Unknown signal received
+
+

@@ -1,0 +1,107 @@
+Determining compilation order of HDL files
+Analyzing Verilog file signextend.v
+Analyzing Verilog file shiftleft.v
+Analyzing Verilog file register.v
+Analyzing Verilog file pc.v
+Analyzing Verilog file mux.v
+Analyzing Verilog file memwrdatamux.v
+Analyzing Verilog file MEMWB.v
+Analyzing Verilog file Imem.v
+Analyzing Verilog file IFID.v
+Analyzing Verilog file IDEX.v
+Analyzing Verilog file harzardunit.v
+Analyzing Verilog file forwardingunit.v
+Analyzing Verilog file flushunit.v
+Analyzing Verilog file EXMEM.v
+Analyzing Verilog file datamem.v
+Analyzing Verilog file control.v
+Analyzing Verilog file ALUcontrol.v
+Analyzing Verilog file ALU.v
+Analyzing Verilog file adder.v
+Analyzing Verilog file 3mux.v
+Analyzing Verilog file pipeline.v
+Analyzing Verilog file testpipeline.v
+Analyzing Verilog file //psf/Home/Documents/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.signextend into
+y:/desktop/370lab/finalp2/finalp2/isim/work/signextend.sdb
+Saving Verilog parse-tree work.shiftleft into
+y:/desktop/370lab/finalp2/finalp2/isim/work/shiftleft.sdb
+Saving Verilog parse-tree work.register into
+y:/desktop/370lab/finalp2/finalp2/isim/work/register.sdb
+Saving Verilog parse-tree work.pc into
+y:/desktop/370lab/finalp2/finalp2/isim/work/pc.sdb
+Saving Verilog parse-tree work.mux into
+y:/desktop/370lab/finalp2/finalp2/isim/work/mux.sdb
+Saving Verilog parse-tree work.memwrdatamuxsel into
+y:/desktop/370lab/finalp2/finalp2/isim/work/memwrdatamuxsel.sdb
+Saving Verilog parse-tree work.MEMWB into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@m@e@m@w@b.sdb
+Saving Verilog parse-tree work.Imem into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@imem.sdb
+Saving Verilog parse-tree work.IFID into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@i@f@i@d.sdb
+Saving Verilog parse-tree work.IDEX into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@i@d@e@x.sdb
+Saving Verilog parse-tree work.harzardunit into
+y:/desktop/370lab/finalp2/finalp2/isim/work/harzardunit.sdb
+Saving Verilog parse-tree work.forwardingunit into
+y:/desktop/370lab/finalp2/finalp2/isim/work/forwardingunit.sdb
+Saving Verilog parse-tree work.flushunit into
+y:/desktop/370lab/finalp2/finalp2/isim/work/flushunit.sdb
+Saving Verilog parse-tree work.EXMEM into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@e@x@m@e@m.sdb
+Saving Verilog parse-tree work.datamem into
+y:/desktop/370lab/finalp2/finalp2/isim/work/datamem.sdb
+Saving Verilog parse-tree work.control into
+y:/desktop/370lab/finalp2/finalp2/isim/work/control.sdb
+Saving Verilog parse-tree work.ALUcontrol into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@a@l@ucontrol.sdb
+Saving Verilog parse-tree work.ALU into
+y:/desktop/370lab/finalp2/finalp2/isim/work/@a@l@u.sdb
+Saving Verilog parse-tree work.adder into
+y:/desktop/370lab/finalp2/finalp2/isim/work/adder.sdb
+Saving Verilog parse-tree work.threemux into
+y:/desktop/370lab/finalp2/finalp2/isim/work/threemux.sdb
+Saving Verilog parse-tree work.pipeline into
+y:/desktop/370lab/finalp2/finalp2/isim/work/pipeline.sdb
+Saving Verilog parse-tree work.testpipeline into
+y:/desktop/370lab/finalp2/finalp2/isim/work/testpipeline.sdb
+Saving Verilog parse-tree work.glbl into
+y:/desktop/370lab/finalp2/finalp2/isim/work/glbl.sdb
+Starting static elaboration
+WARNING:HDLCompiler:189 - "pipeline.v" Line 98. Actual bit length 26 differs
+   from formal bit length 32 for port in
+WARNING:HDLCompiler:189 - "pipeline.v" Line 111. Actual bit length 5 differs
+   from formal bit length 32 for port in0
+WARNING:HDLCompiler:189 - "pipeline.v" Line 115. Actual bit length 32 differs
+   from formal bit length 5 for port EXMEMregRd_in
+Completed static elaboration
+Fuse Memory Usage: 54808 Kb
+Fuse CPU Usage: 296 ms
+Compiling module glbl
+Compiling module pc
+Compiling module Imem
+Compiling module adder
+Compiling module mux
+Compiling module IFID
+Compiling module shiftleft
+Compiling module register
+Compiling module control
+Compiling module harzardunit
+Compiling module signextend
+Compiling module IDEX
+Compiling module threemux
+Compiling module ALUcontrol
+Compiling module ALU
+Compiling module forwardingunit
+Compiling module EXMEM
+Compiling module datamem
+Compiling module memwrdatamuxsel
+Compiling module MEMWB
+Compiling module flushunit
+Compiling module pipeline
+Compiling module testpipeline
+Compiled 23 Verilog Units
+Built simulation executable testpipeline_isim_beh.exe
+Fuse Memory Usage: 57116 Kb
+Fuse CPU Usage: 530 ms

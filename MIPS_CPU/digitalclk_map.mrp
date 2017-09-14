@@ -1,0 +1,252 @@
+Release 10.1 Map K.31 (nt)
+Xilinx Mapping Report File for Design 'digitalclk'
+
+Design Information
+------------------
+Command Line   : map -ise Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise
+-intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o
+digitalclk_map.ncd digitalclk.ngd digitalclk.pcf 
+Target Device  : xc3s1200e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.46 $
+Mapped Date    : Wed Nov 25 01:12:50 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    3
+Logic Utilization:
+  Total Number Slice Registers:       1,551 out of  17,344    8%
+    Number used as Flip Flops:        1,485
+    Number used as Latches:              66
+  Number of 4 input LUTs:             1,941 out of  17,344   11%
+Logic Distribution:
+  Number of occupied Slices:          1,657 out of   8,672   19%
+    Number of Slices containing only related logic:   1,657 out of   1,657 100%
+    Number of Slices containing unrelated logic:          0 out of   1,657   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,018 out of  17,344   11%
+    Number used as logic:             1,941
+    Number used as a route-thru:         77
+  Number of bonded IOBs:                 36 out of     250   14%
+  Number of BUFGMUXs:                     4 out of      24   16%
+
+Peak Memory Usage:  168 MB
+Total REAL time to MAP completion:  10 secs 
+Total CPU time to MAP completion:   5 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:266 - The function generator pipe/N1711 failed to merge with F5
+   multiplexer pipe/N7_f5.  There is a conflict for the FXMUX.  The design will
+   exhibit suboptimal timing.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   pipe/ALUcontrol/ALUControl_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net pipe/control/ALUOp_not0001
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:986 - The SAVE constraint for nets has been made more strict
+   starting in 10.1, such that the net driver and load blocks will be preserved
+   as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+INFO:MapLib:985 - SAVE has been detected on the following signals (maximum 5
+   shown):
+   pcsel,
+   regsel<4>,
+   regsel<3>,
+   regsel<2>,
+   regsel<1>.
+   To list all affected signals, run Map -detail.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |             | Strength | Rate |              |          | Delay    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+| anodes<0>                          | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| anodes<1>                          | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| anodes<2>                          | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| anodes<3>                          | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<0>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<1>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<2>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<3>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<4>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<5>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| cathodes<6>                        | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| clk                                | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| pcsel                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| pipeclk                            | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| regsel<0>                          | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| regsel<1>                          | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| regsel<2>                          | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| regsel<3>                          | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| regsel<4>                          | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| reset                              | IBUF             | INPUT     | LVCMOS25    |          |      |              |          | 0 / 0    |
+| w3<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w3<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w3<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w3<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w4<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w4<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w4<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w4<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w7<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w7<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w7<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w7<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w8<0>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w8<1>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w8<2>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
+| w8<3>                              | IOB              | OUTPUT    | LVCMOS25    | 12       | SLOW |              |          | 0 / 0    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Module             | Partition | Slices        | Slice Reg     | LUTs          | LUTRAM        | BRAM      | MULT18X18 | BUFG  | DCM   | Full Hierarchical Name          |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| digitalclk/        |           | 101/1936      | 0/1551        | 135/2018      | 0/0           | 0/0       | 0/0       | 3/4   | 0/0   | digitalclk                      |
+| +d1                |           | 22/22         | 18/18         | 22/22         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/d1                   |
+| +outmux            |           | 18/18         | 0/0           | 22/22         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/outmux               |
+| +pcoutmux          |           | 114/114       | 0/0           | 208/208       | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pcoutmux             |
+| +pipe              |           | 21/1679       | 0/1529        | 39/1627       | 0/0           | 0/0       | 0/0       | 0/1   | 0/0   | digitalclk/pipe                 |
+| ++ALU              |           | 88/88         | 32/32         | 171/171       | 0/0           | 0/0       | 0/0       | 1/1   | 0/0   | digitalclk/pipe/ALU             |
+| ++ALUcontrol       |           | 5/5           | 3/3           | 9/9           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/ALUcontrol      |
+| ++ALUinput2        |           | 20/20         | 0/0           | 32/32         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/ALUinput2       |
+| ++EXMEM            |           | 74/74         | 104/104       | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/EXMEM           |
+| ++IDEX             |           | 89/89         | 107/107       | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/IDEX            |
+| ++IFID             |           | 21/21         | 40/40         | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/IFID            |
+| ++Imem             |           | 19/19         | 22/22         | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/Imem            |
+| ++MEMWB            |           | 25/25         | 43/43         | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/MEMWB           |
+| ++MEMtoRegmux      |           | 16/16         | 0/0           | 32/32         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/MEMtoRegmux     |
+| ++add4             |           | 7/7           | 0/0           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/add4            |
+| ++branchaddr       |           | 7/7           | 0/0           | 9/9           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/branchaddr      |
+| ++control          |           | 8/8           | 9/9           | 15/15         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/control         |
+| ++datamem          |           | 101/101       | 129/129       | 72/72         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/datamem         |
+| ++flush            |           | 1/1           | 0/0           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/flush           |
+| ++forwardA         |           | 32/32         | 0/0           | 32/32         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/forwardA        |
+| ++forwardB         |           | 32/32         | 0/0           | 64/64         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/forwardB        |
+| ++forwarding       |           | 13/13         | 0/0           | 19/19         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/forwarding      |
+| ++harzardunit      |           | 6/6           | 0/0           | 9/9           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/harzardunit     |
+| ++jumpmux          |           | 13/13         | 0/0           | 16/16         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/jumpmux         |
+| ++memwrdata        |           | 17/17         | 0/0           | 32/32         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/memwrdata       |
+| ++memwrdatamuxsel  |           | 4/4           | 0/0           | 5/5           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/memwrdatamuxsel |
+| ++pc               |           | 13/13         | 16/16         | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/pc              |
+| ++register         |           | 1044/1044     | 1024/1024     | 1064/1064     | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/register        |
+| ++regwriteaddr     |           | 3/3           | 0/0           | 5/5           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/pipe/regwriteaddr    |
+| +r1                |           | 2/2           | 4/4           | 4/4           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | digitalclk/r1                   |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Slices can be packed with basic elements from multiple hierarchies.
+  Therefore, a slice will be counted in every hierarchical module
+  that each of its packed basic elements belong to.
+** For each column, there are two numbers reported <A>/<B>.
+   <A> is the number of elements that belong to that specific hierarchical module.
+   <B> is the total number of elements from that hierarchical module and any lower level
+   hierarchical modules below.
+*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

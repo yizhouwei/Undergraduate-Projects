@@ -1,0 +1,70 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "signextend.v" in library work
+Compiling verilog file "shiftleft.v" in library work
+Module <signextend> compiled
+Compiling verilog file "register.v" in library work
+Module <shiftleft> compiled
+Compiling verilog file "pc.v" in library work
+Module <register> compiled
+Compiling verilog file "mux.v" in library work
+Module <pc> compiled
+Compiling verilog file "memwrdatamux.v" in library work
+Module <mux> compiled
+Compiling verilog file "MEMWB.v" in library work
+Module <memwrdatamuxsel> compiled
+Compiling verilog file "Imem.v" in library work
+Module <MEMWB> compiled
+Compiling verilog file "IFID.v" in library work
+Module <Imem> compiled
+Compiling verilog file "IDEX.v" in library work
+Module <IFID> compiled
+Compiling verilog file "harzardunit.v" in library work
+Module <IDEX> compiled
+Compiling verilog file "forwardingunit.v" in library work
+Module <harzardunit> compiled
+Compiling verilog file "flushunit.v" in library work
+Module <forwardingunit> compiled
+Compiling verilog file "EXMEM.v" in library work
+Module <flushunit> compiled
+Compiling verilog file "datamem.v" in library work
+Module <EXMEM> compiled
+Compiling verilog file "control.v" in library work
+Module <datamem> compiled
+Compiling verilog file "ALUcontrol.v" in library work
+Module <control> compiled
+Compiling verilog file "ALU.v" in library work
+Module <ALUcontrol> compiled
+Compiling verilog file "adder.v" in library work
+Module <ALU> compiled
+Compiling verilog file "3mux.v" in library work
+Module <adder> compiled
+Compiling verilog file "pipeline.v" in library work
+Module <threemux> compiled
+Module <pipeline> compiled
+No errors in compilation
+Analysis of file <"pipeline.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.67 secs
+ 
+--> 
+
+Total memory usage is 104888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

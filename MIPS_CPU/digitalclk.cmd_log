@@ -1,0 +1,80 @@
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
+ngdbuild -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "digitalclk.ngc" digitalclk.ngd
+map -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o digitalclk_map.ncd digitalclk.ngd digitalclk.pcf
+par -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -w -intstyle ise -ol std -t 1 digitalclk_map.ncd digitalclk.ncd digitalclk.pcf
+trce -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -e 3 -s 4 -xml digitalclk digitalclk.ncd -o digitalclk.twr digitalclk.pcf -ucf digitalclk.ucf
+bitgen -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -f digitalclk.ut digitalclk.ncd
+xst -ise "Y:/Desktop/370lab/finalp2/finalp2/finalp2.ise" -intstyle ise -ifn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.xst" -ofn "Y:/Desktop/370lab/finalp2/finalp2/digitalclk.syr"
